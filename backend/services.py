@@ -1,7 +1,7 @@
 import random
 
-wat_lines = 3379
-srt_lines = 476
+wat_lines = 3378
+srt_lines = 475
 
 
 def getWat():
