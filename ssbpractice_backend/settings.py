@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-vmlge9adc_3p$5pa_f%iu0_%(twgd8((cv!$l^730p@p4knodd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["ssbpracticeapi.com", "ssbpracticebackend.eba-mhwbdeek.ap-south-1.elasticbeanstalk.com", "127.0.0.1",]
+ALLOWED_HOSTS = ["ssbpracticeapi.com", "ssbpracticebackend.eba-mhwbdeek.ap-south-1.elasticbeanstalk.com", "*",]
 
 
 # Application definition
