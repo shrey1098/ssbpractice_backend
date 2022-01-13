@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-vmlge9adc_3p$5pa_f%iu0_%(twgd8((cv!$l^730p@p4knodd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["ssbpracticeapi.com", "ssbpracticebackend.eba-mhwbdeek.ap-south-1.elasticbeanstalk.com"]
+ALLOWED_HOSTS = ["ssbpracticeapi.com", "ssbpracticebackend.eba-mhwbdeek.ap-south-1.elasticbeanstalk.com", "127.0.0.1",]
 
 
 # Application definition
@@ -127,3 +127,7 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
